@@ -1,0 +1,8 @@
+2026-05-01 12:49:14 - api - INFO - Initializing Binance Futures Demo Trading client
+2026-05-01 12:49:14 - api - INFO - Using API endpoint: https://demo-fapi.binance.com
+2026-05-01 12:49:14 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.binance.com:443
+2026-05-01 12:49:16 - urllib3.connectionpool - DEBUG - https://api.binance.com:443 "GET /api/v3/ping HTTP/1.1" 200 2
+2026-05-01 12:49:16 - api - INFO - Testing connection to Binance Futures Demo...
+2026-05-01 12:49:16 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): fapi.binance.com:443
+2026-05-01 12:49:18 - urllib3.connectionpool - DEBUG - https://fapi.binance.com:443 "GET /fapi/v2/account?timestamp=1777619956012&signature=cff17bdd9920881a55685ad1165a567787553425c64187188c08da507baa06a4 HTTP/1.1" 401 69
+2026-05-01 12:49:18 - api - ERROR - Error code: -2015

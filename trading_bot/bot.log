@@ -1,0 +1,8 @@
+2026-05-01 14:10:19,110 - INFO - Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-05-01 14:10:19,111 - ERROR - Error placing order: API Secret required for private endpoints
+2026-05-01 14:11:31,918 - INFO - Placing order: BTCUSDT BUY MARKET 0.001 None
+2026-05-01 14:11:34,925 - INFO - Response: {'orderId': 13095899434, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'vmTQU0XEHDxdsPLBLV5M5p', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777624895226}
+2026-05-01 14:17:58,268 - INFO - Placing order: BTCUSDT SELL LIMIT 0.001 65000
+2026-05-01 14:18:00,314 - ERROR - Error placing order: APIError(code=-4024): Limit price can't be lower than 73480.35.
+2026-05-01 14:19:03,189 - INFO - Placing order: BTCUSDT SELL LIMIT 0.001 75000
+2026-05-01 14:19:05,031 - INFO - Response: {'orderId': 13095920507, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'TUtE2K3tX7NY8r2ylzJeuq', 'price': '75000.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1777625345331}
